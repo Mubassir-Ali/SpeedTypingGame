@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: #2E3339;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    
+    
+    
+
+}
+
+.header{
+    background-color: #5F6871;
+    padding: 12px 12px;
+    
+  
+}
+
+.page{
+    
+    
+    height: 92vmin;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 35%;
+    padding:40px 12px;
+}
+.msg-word{
+    height: 100px;
+    width: 100%;
+    
+}
+.input-msg{
+    height: 100px;
+}
+.input-msg input{
+    border: none;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    
+}
+
+.input-msg h3{
+    margin: 20px 20px;
+}
+
+.time-score{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
+.instruction{
+    background-color: #606972;
+    margin-top:50px ;
+    padding: 15px;
+    
+}
+
+.instruction h3{
+    margin-bottom: 12px;
+}
